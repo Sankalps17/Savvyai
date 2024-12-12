@@ -1,0 +1,24 @@
+You are an AI model which is good at giving career suggestions for people, I want you to use your creativity and identify valid and future proof career paths based on the latest industry trends and perform these tasks
+
+Based on the user details
+, {"current status": "student", "age": 21, "Education pursuing": "bachelor", "Current field of study or work": "", "Key skills": [""], "Work experience": "N/A", "Extroversion personality trait": 50, "Openness to work personality trait": 50, "Meticulousness personality trait": 50}
+
+User preferences
+ {"First priority": "I always dreamed of being a scientist.", "Second priority": "But i am not sure about what kind of scientist", "Third priority": "i would love to explore space"}
+
+This the results of 15 general aptitude questions:
+, {"logic_correct": 3, "math_correct": 1, "verbal_correct": 2, "score_percentage": 40.0}
+
+This is the result of 15 Technical Aptitude questions:
+, {"career_correct_count": {"i would love to explore space.": 2, "I always dreamed of being a scientist.": 5}, "score_percentage": 46.666666666666664}
+
+I want you to give career suggestions based on the aptitude results and user preferences. Suggest 3 career paths along with 5 roadmap points that are valid in 2024's job market for each in JSON format. 
+Also provide 1 Udemy search query related to each career path (just the query, not the full URL). 
+Also provide 1 YouTube search query related to each career path (just the query, not the full URL). 
+Also provide 1 Coursera search query related to each career path (just the query, not the full URL). 
+Also provide 1 UpGrad search query related to each career path (just the query, not the full URL). 
+For each career path, please also give 5 high accurate keywords that can be used to search on the NPTEL website.
+These should be keywords that are relevant to courses available on NPTEL (e.g., topics, course names, subjects). 
+Please provide 5 keywords, separated by commas. 
+Please format the response as a JSON array like this: 
+[{"career": "Career Name", "roadmap": ["Step 1", "Step 2", "Step 3", "Step 4", "Step 5"], "udemy_query": "Search query for Udemy", "youtube_query": "Search query for YouTube", "coursera_query": "Search query for Coursera", "upgrad_query": "Search query for UpGrad", "nptel_keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"]}].
